@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+body {
+  margin: 60px;
+  padding: 0;
+  height: 100%;
+  font-family: fantasy;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: space-between;
+  border-top-style: double;
+  border-bottom-style: double;
+  border-left-style: double;
+  border-right-style: double;
+  border-color: transparent;
+  background-color: #9ab8ad;
+}
+
+.meditation-navbar ul,
+.meditation-navbar li {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 20px;
+  list-style: none;
+}
+
+.meditation-navbar a {
+  display: flex;
+  font-size: 36px;
+  color: #032738;
+}
+
+.inner_connections {
+  display: flex;
+  align-items: center;
+  color: #032738;
+  font-size: 28px;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+  border-radius: initial;
+  border-radius: 180px;
+}
+
+.meditation-info {
+  margin-top: 80px;
+  text-align: center;
+  color: #032738;
+  justify-content: center;
+}
+
+.meditation-text {
+  display: inline-block;
+  font-family: fantasy;
+}
+
+h3, h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+.meditation-info p {
+  inline-size: 1000px;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.br-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  max-width: 100%;
+}
+
+.br-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  color: #032738;
+  border: 1px solid #032738;
+  padding: 0 20px 0 20px;
+  letter-spacing: 4px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+#breathe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  border-radius: 60%;
+  border: 0px hidden #000000;
+  background: linear-gradient(to right, #348f50, #56b4d3);
+  box-shadow: 10px 10px 68px -2px rgba(0, 0, 0, 0.75);
+  animation: grow 10s infinite;
+  transform: scale(1);
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0.75);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.75);
+  }
+}
+
+#action {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  letter-spacing: 4px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  width: 200px;
+  height: 200px;
+  opacity: 0.7;
+}
+
+#footer {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-top-style: double;
+  border-bottom-style: double;
+  border-left-style: double;
+  border-right-style: double;
+  border-color: transparent;
+  background-color: #9ab8ad;
+  font-size: 18px;
+  font-family: fantasy;
+}

@@ -40,3 +40,15 @@ dots.forEach((dot, i) => {
     currentSlide = i
   })
 })
+
+// Meditation breathing exercise
+// 
+// const action = document.getElementById("action");
+// const inhale = document.getElementsByClassName(".inhale");
+//
+// setInterval(function () {
+//   action.innerHTML = "exhale";
+// }, 5000);
+//   setInterval(function () {
+//   action.innerHTML = "inhale";
+//   }, 10000);
